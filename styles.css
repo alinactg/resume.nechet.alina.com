@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #8d5d77;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.resume_wrapper {
+    max-width: 1400px; /* Збільшимо максимальну ширину */
+    margin: 50px auto;
+    background-color: #ffffff62;
+    box-shadow: 0 0 10px hsla(131, 37%, 27%, 0.904);
+    border-radius: 5px;
+    display: flex;
+}
+
+.resume_wrapper .resume_left {
+    width: 35%;
+    background-color: #17161a;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume_wrapper .resume_left img {
+    width: 375px;
+    border-radius: 0%;
+    margin-bottom: 20px;
+}
+
+.resume_wrapper .resume_right {
+    width: 65%;
+    padding: 20px;
+}
+
+.resume_item {
+    margin-bottom: 20px;
+}
+
+.resume_title {
+    color: #497446;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.resume_info {
+    color: #666;
+}
+
+.resume_info p {
+    margin-bottom: 5px;
+}
+
+.bold_green_text {
+    color: #497446; 
+    font-weight: bold;
+}
+
+.bold_pink_text {
+    color: #8d5d77; 
+    font-weight: bold; 
+}
+
+.bold_green_text {
+    color: #497446; /* Зелений колір */
+    font-weight: bold; /* Жирний шрифт */
+}
+
+.experience_block {
+    background-color: #ffffff; /* Колір фону для досвіду роботи */
+    padding: 10px; /* Додаткові відступи в середині блоку */
+    border-radius: 5px; /* Закруглені кути блоку */
+    margin-bottom: 20px; /* Відступ від інших блоків */
+}
+
+.resume_item.resume_skills .skills_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume_item.resume_skills .skills_list .skills_bar p {
+    position: relative;
+    width: 200px;
+    height: 20px;
+    background-color: #ddd;
+}
+
+.resume_item.resume_skills .skills_list .skills_bar p span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    background-color: #4d3141;
+}
+
+.experience_title {
+    background-color: #ffffff; /* Колір фону для заголовка */
+    padding: 10px; /* Додаткові відступи */
+    border-radius: 20px 20px 0 0; /* Закруглені кути тільки зверху */
+}
+
+.skills_title {
+    background-color: #ffffff; /* Колір фону для заголовка */
+    padding: 10px; /* Додаткові відступи */
+    border-radius: 20px 20px 0 0; /* Закруглені кути тільки зверху */
+}
+
+
+.interests_title {
+    background-color: #ffffff; /* Колір фону для заголовка */
+    padding: 10px; /* Додаткові відступи */
+    border-radius: 20px 20px 0 0; /* Закруглені кути тільки зверху */
+}
+
+
+.qualities_title {
+    background-color: #ffffff; /* Колір фону для заголовка */
+    padding: 10px; /* Додаткові відступи */
+    border-radius: 20px 20px 0 0; /* Закруглені кути тільки зверху */
+}
+
+
+.bigger_text {
+    font-size: 28px; /* Змініть розмір шрифту на бажаний */
+}
+
+
+@media screen and (max-width: 768px) {
+    .resume_wrapper {
+        flex-direction: column;
+    }
+
+    .resume_wrapper .resume_left,
+    .resume_wrapper .resume_right {
+        width: 100%;
+    }
+
+    .resume_wrapper .resume_left {
+        margin-bottom: 20px;
+    }
